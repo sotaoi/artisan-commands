@@ -1,0 +1,34 @@
+{
+  "name": "sotaoi/artisan-commands",
+  "description": "SOTAOI Artisan Commands",
+  "keywords": [
+    "SOTAOI",
+    "Artisan",
+    "Commands",
+    "Laravel",
+    "Console"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "SOTAOI",
+      "email": "qwertypnk@protonmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sotaoi\\ArtisanCommands\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sotaoi\\ArtisanCommands\\ArtisanCommandsServiceProvider"
+      ]
+    }
+  }
+}
