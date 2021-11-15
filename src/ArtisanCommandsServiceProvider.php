@@ -6,12 +6,10 @@ use Illuminate\Support\ServiceProvider;
 class ArtisanCommandsServiceProvider extends ServiceProvider {
   public function boot(): void {
     if ($this->app->runningInConsole()) {
-      $this->commands([
-        RoutesCommand::class,
-      ]);
+      $this->commands([RoutesCommand::class]);
     }
   }
-  
+
   public function register(): void {
     //
   }

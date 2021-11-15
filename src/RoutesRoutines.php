@@ -6,7 +6,7 @@ class RoutesRoutines {
   public static function getRoutes(): array {
     $uris = [];
     foreach (Route::getRoutes() as $route) {
-        $uris[] = '/' . $route->uri();
+      $uris[] = '/' . $route->uri();
     }
     return $uris;
   }

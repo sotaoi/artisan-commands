@@ -10,14 +10,8 @@
   ],
   "type": "library",
   "license": "MIT",
-  "authors": [
-    {
-      "name": "SOTAOI",
-      "email": "qwertypnk@protonmail.com"
-    }
-  ],
   "require": {
-    "php": ">=7.0"
+    "php": ">=7.3"
   },
   "autoload": {
     "psr-4": {
